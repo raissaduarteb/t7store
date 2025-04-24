@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    height: 100vh;
+    background-color: white;
+}
+
+header {
+    padding: 2rem 6rem 0rem 6rem;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 102%;
+}
+.logo_barra {
+    width: 68%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.info_contato {
+    width: 30%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.barra-de-pesquisa {
+    width: 40rem;
+    height: 2.4rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #F4F2F3;
+    color: #363636;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px rgba(228, 228, 228, 1);
+    background-image: url(Lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding-left: 50px;
+}
+input::placeholder {
+    color:rgba(142, 142, 142, 1);
+    font-weight: 400;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.informacoes {
+    color: rgba(43, 43, 43, 1);
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.botao_contato {
+    background-color:rgba(228, 180, 20, 1) ;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: 600;
+    color: rgba(45, 34, 0, 1);
+    font-family: 'Roboto' 'sans-serif';
+    font-size: 1rem;
+    cursor: pointer;
+}
+.categorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+.categoria_item {
+    font-size: 0.9rem;
+    color: rgba(62, 62, 62, 1);
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto' 'sans-serif';
+}
+.faixa_banner{
+    display: flex;
+    flex-direction:column;
+    gap: 4px;
+}
+.margem-conteudo {
+    margin-top: 2rem;
+    margin-inline: 6rem;
+}
+.linha1{
+    border: none;
+    background-color:rgba(202, 202, 202, 1);
+    height: 0.27vh;
+    opacity: 50%;
+    width: 27rem;
+}
+.mais_vendidos{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgba(18, 18, 18, 1);
+    display: flex;
+    align-items: center;
+    gap: 0.4vw;
+    margin-top: 4rem;
+}
+.imagens{
+    width: 16.5rem;
+}
+.mais_vendidos_produtos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0rem 5rem 0rem;
+}
+.descricao-produto{
+    color: rgba(62, 62, 62, 1);
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.indicador-preco{
+    display: flex;
+    align-items: center;
+    gap: 7.2px;
+}
+.indicador-preco-grande{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 7.2px;
+}
+.preco{
+    font-size: 1.2rem;
+    color: rgba(18, 18, 18, 1);
+    font-weight: 700;
+}
+
+.linha2{
+    border: none;
+    background-color:rgba(202, 202, 202, 1);
+    height: 0.27vh;
+    opacity: 50%;
+}
+
+footer {
+    background-color: rgba(18, 18, 18, 1);
+}
+.rodape{
+    padding: 2rem 13rem 2rem 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape-esq{
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+}
+.rodape-1{
+    font-size: 0.68rem;
+    color: rgba(142, 142, 142, 1);
+    font-weight: 400;
+    line-height: 1rem;
+}
+.rodape-2{
+    font-size: 0.8rem;
+    color: rgba(202, 202, 202, 1);
+    font-weight: 700;
+}
+.rodape-dir{
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+}
+.icones-redessociais{
+    display: flex;
+    margin-top:1rem;
+    flex-direction:row;
+    gap: 0.8rem;
+}
+
+.fotos-produtos {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.fotos-produtos-pequenos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.titulo-maior{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgba(43, 43, 43, 1);
+}
+.preco-maior {
+    font-size: 1.8rem;
+    color: rgba(18, 18, 18, 1);
+    font-weight: 700;
+}
+.tamanho-cor-font{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgba(62, 62, 62, 1);
+
+}
+.informacoes-produto{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+.organiz-itens{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+.fotos-descricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+.tamanho-cor{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.tamanho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.cor{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.retangulo-sobre-o-produto{
+    height: 5rem;
+    background-color: rgba(244, 242, 243, 1);
+    border-color: rgba(202, 202, 202, 1);
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 2rem;
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.titulo-sobre-o-produto{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgba(18, 18, 18, 1);
+}
+.desc-sobre-o-produto{
+    font-size: 1rem;
+    color: rgba(62, 62, 62, 1);
+    font-weight: 400;
+}
+
+.circulo-tamanho {
+    width: 40px; 
+    height: 40px; 
+    border: 0.5px solid; 
+    border-color: rgba(62, 62, 62, 1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(62, 62, 62, 1);
+}
+.circulo-color{
+    width: 40px; 
+    height: 40px; 
+    border: 0.5px solid; 
+    border-color: rgba(62, 62, 62, 1);
+    border-radius: 50px;
+}
